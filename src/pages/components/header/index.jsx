@@ -34,10 +34,12 @@ const Header = () => {
           <Image src={Logo} />
         </div>
         <div className={Styles.menu} id="menu">
-          <Link href="https://google.com">Home</Link>
-          <Link href="/">O que fazemos</Link>
-          <Link href="/">Cases</Link>
-          <Button title="Fale conosco" />
+
+                    <Link href="https://google.com">Home</Link>
+                    <Link href="https://google.com">O que fazemos</Link>
+                    <Link href="https://google.com">Cases</Link>
+                    <Button title="Fale conosco" onClick={() => { location.href = "#form" }}/>
+                </div>
         </div>
         <Image className={Styles.icon} src={menuIcon} onClick={toggleMenu} />
       </div>
