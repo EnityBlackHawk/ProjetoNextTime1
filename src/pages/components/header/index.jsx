@@ -17,8 +17,7 @@ function closeMenu() {
 
 function toggleMenu() {
   var menu = document.getElementById("menu");
-  var main = document.getElementById("main");
-
+  
   if (isOpen) {
     closeMenu();
   } else {
