@@ -69,7 +69,7 @@ const Contato = () => {
             </ul>
           </div>
         </div>
-        <div className={Styles.forms} id="form">
+        <div className={Styles.forms}>
           <h1>Fale com um especialista</h1>
 
           <form onSubmit={handleSubmit}>

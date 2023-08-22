@@ -13,7 +13,7 @@ const Welcome = () => {
             Veja como ajudamos nossos clientes a alcancar maior
             sustentabilidade social, economica e ambiental.
           </p>
-          <Button title="Saber Mais" kind="secundary" onClick={() => { location.href = "https://google.com" }} />
+          <Button title="Saber Mais" kind="secundary" />
         </div>
         <div className={Styles.image}>
             <Teste />

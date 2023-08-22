@@ -37,21 +37,6 @@
     text-align: right;
   }
 
-  .footer_links{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 1rem;
-    color: $white-color;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-decoration: none;
-
-    &:hover {
-      color: $accent-color;
-    }
-  }
-
   .icons {
     display: flex;
     justify-content: right;
